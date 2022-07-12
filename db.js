@@ -7,11 +7,10 @@ const pool = new Pool({
   // port: "5432",
   // database: "notepad",
   connectionString:
-    "postgres://lgvjaoyfojkalj:3815f73e1bfbee65566de22cfdf37afaa08801b5f19da8ec23c8de3225349436@ec2-63-32-248-14.eu-west-1.compute.amazonaws.com:5432/dci4rtkpcuo3bi",
+    "postgres://qyededsbdfwaxv:a6ac020f97a6342e69e89e2369a50cee774fccfc9b345b38c67b116f9da36e0d@ec2-54-155-110-181.eu-west-1.compute.amazonaws.com:5432/dcekun7rtlgl5b",
   ssl: {
     rejectUnauthorized: false,
   },
-  // ssl: true,
 });
 
 module.exports = pool;
